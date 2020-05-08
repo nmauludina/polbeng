@@ -1,0 +1,962 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    padding: 0;
+}
+
+body .btn {
+    background-color: #00799A;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    height: 38px;
+    padding: 4px 21px 13px;
+}
+
+body .btn:hover {
+    background: #0F9DC3;
+    color: white;
+}
+
+/* Header */
+
+.link-actv {
+  color: #00799A!important;
+}
+
+header .top-head {
+    width: 100%;
+    height: 32px;
+    padding: 0;
+    background: #00799A;
+}
+
+.top-head .container {
+    padding: 0;
+}
+
+.top-head .medsos a, .top-head .info a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.top-head .info a {
+    top: 4px;
+    padding-left: 45px;
+}
+
+.top-head .medsos a {
+    top: 3px;
+}
+
+.top-head .medsos img {
+    margin-right: 6.2px;
+    width: 16px;
+}
+
+header .container {
+    padding: 0;
+    box-sizing: content-box;
+}
+
+header nav a {
+    padding: 0;
+}
+
+header .navbar {
+    height: 99px;
+    padding: 0;
+    background-color: none;
+}
+
+header .nav-menu {
+    position: absolute;
+    right: -8px;
+    bottom: 14px;
+}
+
+header .nav-menu a {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 0;
+}
+
+header a.navbar-brand {
+    padding: 18px 0;  
+}
+
+header a.navbar-brand img {
+    width: 80%;
+}
+
+header a.nav-link:hover {
+    color: rgba(0, 121, 154, 0.5)!important;
+    transition: .3s;
+}
+
+ul.navbar-nav {
+    position: relative;
+}
+
+header div.container-fluid.navigasi {
+    padding: 21px;
+    position: absolute;
+    top: 190px;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 999999;
+    display: block;
+}
+
+header div.my-navHover {
+    margin-left: 855px;
+}
+
+header div.my-navHover a {
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+header div.my-navHover a:last-child {
+    padding-bottom: 0;
+}
+
+header div.my-navHover a:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+
+ ul.navbar-nav div.item-child {
+    position: absolute;
+    top: 36px;
+    z-index: 5;
+    padding: 18px 0;
+    display: none;
+    min-height:0;
+}
+ ul.navbar-nav div.item-child:hover {
+   display: block;
+ }
+
+ul.navbar-nav div.item-child a {
+    display: inline-block;
+    margin: 0 36px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+}
+
+ul.navbar-nav div.item-child a:last-child {
+    margin-bottom: 0;
+} 
+
+.bg_white{
+    background-color: rgba(255, 255, 255, 0.8);
+    content: '';
+    width: 100%;
+    height: 105px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.bg_white:hover {
+    display: block;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 610px !important;
+}
+
+ol.carousel-indicators {
+    margin-bottom: 6px;
+}
+
+.carousel .img-res {
+    position: relative;
+    top: -50px;
+    left: 0;
+    width: 100%;
+}
+
+.carousel-indicators li {
+    width: 13px!important;
+    height: 13px!important;
+    border-radius: 100%!important;
+    margin: 0 5px 9px!important;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel .carousel-child {
+    position: absolute;
+    width: 55%;
+    top: 331px;
+    left: 0px;
+    z-index: 99;
+    padding: 10px 0;
+}
+
+.carousel .carousel-child .btn {
+    position: static;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #2A1570;
+    background: #FFF494;
+    padding: 16px 30px;
+    height: max-content;
+    margin-top: 35px;
+}
+
+/* .carousel::before {
+    content: "Program Studi Diploma";    
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 299.11px;
+    left: 0px;
+    background-color: teal;
+    z-index: 99;
+} */
+
+.green-bar {
+    height: 140px;
+    background: #20ABAE;
+    padding-top: 19px;
+}
+
+
+
+/* MAIN */
+
+#berita {
+    padding: 55px 0;
+}
+
+#berita .col-md-7, #berita .col-md-5 {
+    padding: 0;
+}
+
+#berita .berita {
+    padding-right: 53px;
+    /* border: 1px solid black; */
+}
+
+#berita .berita-item {
+    width: 45%;
+    padding-bottom: 48px;
+}
+
+#berita h3 {
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 11px;
+}
+
+#berita div.berita-photo {
+    position: relative;
+    display: inline-block; 
+}
+
+#berita img.berita-foto {
+    width: 100%;
+    border-radius: 5px;
+    display:block;
+}
+
+div.bg_link {
+    background: rgba(0, 121, 154, 0.5);
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.bg_link.d-flex {
+    display: flex;
+}
+
+.bg_link:hover, .bg_link a:hover {
+    display: flex;
+}
+
+
+.bg_link .frame {
+    background: white;
+    margin: 0 auto;
+    width: 48px;
+    height: 48px;
+}
+
+div.bg_link img {
+    width: 36px;
+    height: 36px;
+    margin-top: -2.5px;
+}
+
+.berita-konten h5 {
+    margin: 12px 0 4px;
+    font-size: 15px;
+
+}
+
+.berita-konten h5 a {
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    padding:0;
+    line-height: .5em!important;
+}
+
+.berita-konten h6 {
+    font-size: 11.5px;
+    font-weight: normal;
+    color:  #20ABAE;
+    margin-top: 5px;
+}
+
+.berita-konten hr {
+    margin: 8px 0;
+}
+
+.berita-konten p {
+    font-size: 11px;
+    line-height: 15px;
+    width: 95%;
+}
+
+button {
+    position: absolute;
+    bottom: 0;
+}
+
+/* ----------------------------------- */
+
+.kalender h4{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 12px 0 26px;
+}
+
+.sche-now {
+    margin-bottom: 65px;
+}
+
+.sche-now:hover .sche-now-date h1, .sche-now:hover .sche-now-date p {
+    color: #EC4242;
+    transition: .3s;
+}
+
+.sche-now:hover .sche-now-details p, .sche-now:hover h6 {
+    color: #20ABAE;
+    transition: .3s;
+}
+
+.sche-now .sche-now-top {
+    background-color: #20ABAE;
+    padding: 6px 22px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    font-weight: 800;
+}
+
+.sche-now .sche-now-content {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: 0;
+    box-shadow: 0 2px 15px rgb(221, 221, 221);
+}
+
+.sche-now .sche-now-date {
+    color: #20ABAE;
+    position: relative;
+    margin: 19px 10px 18px 27px;
+    padding: 0;
+}
+
+.sche-now-date h1 {
+    font-size: 51px;
+    line-height: 64px;
+    display: inline;
+    font-weight: bolder;
+    padding-right: 8px;
+}
+
+.sche-now-date p {
+    font-size: 18px;
+    display: inline;
+    position: absolute;
+    top: 12px;
+    font-weight: 800;
+    line-height: 22px;
+}
+
+.col-sm.sche-now-details {
+    padding: 16px 30px 11px;
+    background-color: #F8F8F8;
+}
+
+.sche-now-details h6 {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.sche-now-details p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF0000;
+    margin: 0;
+}
+
+
+/* ------------------------------------- */
+
+.sche-nsp {
+    margin-bottom: 55px;
+}
+
+.sche-nsp .sche-nsp-top {
+    background-color: #27B947;
+    padding: 6px 22px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    font-weight: 800;
+}
+
+.sche-nsp .sche-nsp-content {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: 0;
+}
+
+.sche-nsp .sche-nsp-content:hover .sche-nsp-date h2, .sche-nsp .sche-nsp-content:hover .sche-nsp-details p {
+    color: #20ABAE;
+    transition: .3s;
+}
+
+.sche-nsp .sche-nsp-date, .sche-nsp .sche-nsp-details {
+    padding: 0;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+div.row.sche-nsp-content:nth-child(even) {
+    background: #F8F8F8;
+}
+
+div.row.sche-nsp-content:first-child {
+    background: #FFF494;
+}
+
+div.row.sche-nsp-content:first-child:hover .sche-nsp-date h2, div.row.sche-nsp-content:first-child:hover .sche-nsp-details p {
+    color: #EC4242;
+    transition: .2s;
+    font-weight: bolder;
+}
+
+div.row.sche-nsp-content:first-child div.sche-nsp-date > h2, div.row.sche-nsp-content:first-child div.sche-nsp-details > p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.sche-nsp .sche-nsp-date h2 {
+    font-size: 24px;
+    padding: 11px 22px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0;
+}
+
+.sche-nsp .sche-nsp-details p {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 21px 0 13px;
+    /* padding-right: 159px; */
+}
+
+
+/* ----------------------------------------- */
+
+.sche-semester {
+    margin-bottom: 52px;
+    padding-bottom: 52px;
+}
+
+.sche-semester .sche-semester-top {
+    background-color: #EC4242;
+    padding: 6px 22px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    font-weight: 800;
+}
+
+.sche-semester .sche-semester-content {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: 0;
+}
+
+.sche-semester .sche-semester-date, .sche-semester .sche-semester-details {
+    padding: 0;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+div.row.sche-semester-content:nth-child(even) {
+    background: #F8F8F8;
+    
+}
+
+.sche-semester .sche-semester-date h2 {
+    font-size: 24px;
+    padding: 11px 22px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0;
+}
+
+.sche-semester .sche-semester-details p {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 21px 0 13px;
+}
+
+/* ------------------------------------- */
+
+body .strip {
+    background: #F1F1F1;
+    height: 15px;
+    width: 100%;
+}
+
+
+/* ------------------------------------- */
+
+#prestasi {
+    padding: 55px 0;
+}
+
+/* ---------------------------------------- */
+
+/* PRESTASI */
+
+#prestasi .prestasi h3 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+#prestasi .col-md-7 {
+    padding: 0 53px 70px 0;
+}
+
+#prestasi .col-md-5 {
+    padding: 6px 0 70px 9px;
+}
+
+#prestasi .col-md-6 {
+    padding: 0 15px 0 0;
+}
+
+#prestasi .prestasi-item {
+    margin: 19px 0 25px 0;
+}
+
+#prestasi .prestasi-foto img {
+    width: 100%;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px rgb(209, 209, 209);
+}
+
+#prestasi .prestasi-detail h5 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#prestasi .prestasi-detail h6 {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #20ABAE;
+}
+
+#prestasi .prestasi-detail hr {
+    margin: 12px 0;
+}
+
+#prestasi .prestasi-detail p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#prestasi .agenda h5 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 39px;
+    margin-left: 6px;
+}
+
+#prestasi .agenda-item {
+    padding: 13px 22px;
+    z-index: 99;
+    position: relative;
+    background: #00799A;
+    /* background: linear-gradient(left,#00799A,#00799A ) no-repeat; */
+    background-position: 0px;
+    border-radius: 5px 0px 0px 5px;
+    margin-bottom: 22px;
+}
+
+#prestasi .agenda-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 6px;
+    width: 461px;
+    height: 100%;
+    z-index: -5;
+    background: #F8F8F8;
+    /* background-color: #00799A; */
+}
+
+#prestasi .agenda-item h6 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+#prestasi .agenda-item img {
+    float: left;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+#prestasi div.clearfix img.lok {
+    margin-left: 3px;
+    width: 10px;
+    margin-right: 17px;
+}
+
+#prestasi .agenda-item p {
+    margin-bottom: 2px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+.clear {
+    clear: both;
+}
+
+
+
+
+
+
+/* VIDEO */
+
+#deskripsi {
+    background: #00799A;
+    padding: 55px 0 80px;
+    color: white;
+}
+
+#deskripsi .container {
+    padding: 0;
+}
+
+#deskripsi h3 {
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+#deskripsi .video {
+    width: 60%;
+}
+
+#deskripsi .video img {
+    /* width: 900px; */
+    width: 89%;
+    border-radius: 15px;
+    position: relative;
+}
+
+#deskripsi .sejarah {
+    width: 40%;
+}
+
+#deskripsi .sejarah h4{
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 34px;
+    top: -3px;
+}
+
+#deskripsi p.sejarah {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    background: #062B35;
+    color: white;
+    padding: 53px 0;
+}
+
+footer .container {
+    padding: 0;
+}
+
+.blue-bar h4 {
+    margin: 18px 0 ;
+}
+
+.contacts {
+    width: 55%;
+}
+
+.contacts p {
+    margin-bottom: 0;
+    padding-bottom: 3px;
+}
+
+.links {
+    width: 45%;
+}
+
+.links .col {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.links h2 {
+    font-weight: 700;
+    padding-bottom: 34px;
+    margin: 0;
+    font-size: 36px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 22px;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+
+.links a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.white-bar {
+    background-color: #FFF;
+    color: #00799A;
+    text-align: center;
+    height: 45px;
+    padding: 13px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.white-bar p {
+    padding: 0;
+}
+
+
+
+/* ************ PRODI *************** */
+
+main div.container {
+  padding: 0;
+}
+
+div.batasan {
+  background: #DFDFDF;
+}
+
+div.batasan .container {
+  padding: 19px 0 18px;
+}
+
+div.batasan p {
+  display: inline;
+  margin: 0;
+}
+
+div.batasan p a, div.batasan p::after {
+  font-size: 14px;
+  line-height: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+div.batasan p::after {
+  content: ' / ';
+}
+
+div.batasan p:last-child a {
+  color: #00799A;
+  font-weight: 700;
+}
+
+div.batasan p:last-child::after {
+  content: '';
+}
+
+div.prodi-nama {
+  background: #F1F1F1;
+}
+
+div.prodi-nama h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #00799A;
+  margin: 0;
+  padding: 29px 0;
+
+}
+
+div.konten .container{
+  padding: 0 0 90px 0;
+}
+
+main aside {
+  margin-top: 22px;
+}
+
+aside  .list-group-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 23px 21px;
+}
+
+aside  .list-group-item a {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+aside  .list-group-item a:hover {
+  transition: .3px;
+}
+
+aside  .list-group-item:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5)!important;
+}
+
+aside  li.list-group-item.list-actv {
+  background: #FFF494;
+}
+
+
+article img {
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+div.article-item div.col:last-child {
+  padding: 0;
+}
+
+div.article-item h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #00799A;
+  margin: 0;
+}
+
+article div.article-item:nth-child(2) h1, article div.article-item:nth-child(4) h1 {
+  border-bottom: 5px solid #00799A;
+  width: 3.5em;
+  padding: 0px 0 12px;
+  display: inline-block;
+  margin-bottom: 29px;
+}
+
+div.article-item div.batas-biru {
+  width: 130px;
+  background: #00799A;
+  height: 5px;
+  margin: 1px 0 29px
+}
+
+div.article-item p {
+  font-size: 18px;
+  line-height: 17px;
+  margin: 0;
+  text-align: justify;
+}
+
+div.article-item table tr td.align-baseline {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+div.article-item table tr td:nth-child(2) {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 17px;
+}
+
+div.article-item table.tbl tr td {
+  font-size: 18px;
+  line-height: 17px;
+  text-align: justify;
+}
+
+article .batas {
+  background: #F1F1F1;
+  height: 15px;
+  margin: 21px 0;
+}
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    header .top-head {
+        background: rgb(71, 74, 75);
+    }
+}
