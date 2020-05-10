@@ -5,6 +5,10 @@
 body {
     padding: 0;
 }
+/* 
+.cont {
+    width: 1242px!important;
+} */
 
 body .btn {
     background-color: #00799A;
@@ -35,6 +39,11 @@ header .top-head {
 
 .top-head .container {
     padding: 0;
+}
+
+.top-head div.medsos {
+    width:90px;
+    margin-left: 3px;
 }
 
 .top-head .medsos a, .top-head .info a{
@@ -182,7 +191,7 @@ ul.navbar-nav div.item-child a:last-child {
 
 .carousel-inner{
   width:100%;
-  max-height: 610px !important;
+  max-height: 605px !important;
 }
 
 ol.carousel-indicators {
@@ -210,20 +219,24 @@ ol.carousel-indicators {
 .carousel .carousel-child {
     position: absolute;
     width: 55%;
-    top: 331px;
-    left: 0px;
+    top: 290px;
+    left: 179.5px;
     z-index: 99;
     padding: 10px 0;
+}
+
+.carousel-child img {
+    width: 70%;
 }
 
 .carousel .carousel-child .btn {
     position: static;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
     color: #2A1570;
     background: #FFF494;
-    padding: 16px 30px;
+    padding: 8px 18px;
     height: max-content;
     margin-top: 35px;
 }
@@ -240,9 +253,13 @@ ol.carousel-indicators {
 } */
 
 .green-bar {
-    height: 140px;
+    height: max-content;
     background: #20ABAE;
-    padding-top: 19px;
+    padding: 15px 0;
+}
+
+.green-bar img {
+    height: 80px;
 }
 
 
