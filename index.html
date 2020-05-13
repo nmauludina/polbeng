@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header headroom headroom--fixed">
         <!-- blue bar -->
         <div class="container-fluid top-head">
             <div class="container d-flex justify-content-between">
@@ -72,6 +72,9 @@
             </div>
         </div>
         <div class="bg_white" id="bg_putih_header"></div>
+    </header>
+    <!-- <div class="header-space"></div> -->
+    <main>
         <!-- carousel -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -90,11 +93,8 @@
                     <img class="img-res" src="assets/img/banner.png" class="d-block w-100" alt="carousel">
                 </div>
             </div>
-            <div class="carousel-child">
+            <div class="carousel-child container-fluid">
                 <div class="container">
-                    <!-- <h3>Program Studi Diploma</h3>
-            <h1>Teknik Informatika</h1>
-            <h2>Terakreditasi B</h2> -->
                     <img src="assets/img/Pragram Studi Diploma TEKNIK INFORMATIKA Terakreditasi B.png">
                     <br>
                     <a class="btn" href="#">Daftar Prodi ini</a>
@@ -110,7 +110,7 @@
                 <a href="#"><img src="assets/img/kemahasiswaan.png" alt=""></a>
             </div>
         </div>
-    </header>
+    </main>
 
     <!-- Main -->
     <main class="container">
@@ -476,6 +476,14 @@
 
     <!-- My JavaScript -->
     <script src="assets/js/myjs.js"></script>
+    <script src="assets/js/headroom.js"></script>
+    <script type="text/javaScript">
+        var myElement = document.querySelector(".headroom");
+        // construct an instance of Headroom, passing the element
+        var headroom  = new Headroom(myElement);
+        // initialise
+        headroom.init();
+    </script>
 </body>
 
 </html>

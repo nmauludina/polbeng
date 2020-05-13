@@ -18,14 +18,14 @@
 </head>
 
 <body>
-    <header>
+    <header class="header headroom headroom--fixed">
         <!-- blue bar -->
         <div class="container-fluid top-head">
             <div class="container d-flex justify-content-between">
                 <div class="medsos">
-                    <a href="#"><img src="../assets/img/ig.png" alt=""></a>
-                    <a href="#"><img src="../assets/img/tw.png" alt=""></a>
-                    <a href="#"><img src="../assets/img/fb.png" alt=""></a>
+                    <a href="#"><img src="assets/img/ig.png" alt=""></a>
+                    <a href="#"><img src="assets/img/tw.png" alt=""></a>
+                    <a href="#"><img src="assets/img/fb.png" alt=""></a>
                 </div>
                 <div class="info">
                     <a href="#">Penerimaan Mahasiswa Baru</a>
@@ -48,15 +48,16 @@
                     <div class="collapse navbar-collapse nav-menu" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                                <a class="nav-link link-actv" href="index.html">HOME <span
+                                        class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link-actv dropdown-toggle menu_header" href="#">PROGRAM STUDI</a>
+                                <a class="nav-link dropdown-toggle menu_header" href="#">PROGRAM STUDI</a>
                                 <div class="item-child">
                                     <span class="d-flex flex-column">
-                                        <a href="ti.html">D3 TEKNIK INFOTMATIKA</a>
-                                        <a href="rpl.html">D4 REKAYASA PERANGKAT LUNAK</a>
-                                        <a href="ksi.html">D4 KEAMANAN SISTEM INFORMASI</a>
+                                        <a href="prodi/ti.html">D3 TEKNIK INFOTMATIKA</a>
+                                        <a href="prodi/rpl.html">D4 REKAYASA PERANGKAT LUNAK</a>
+                                        <a href="prodi/ksi.html">D4 KEAMANAN SISTEM INFORMASI</a>
                                     </span>
                                 </div>
                             <li class="nav-item">
@@ -203,6 +204,21 @@
 
     <!-- My JavaScript -->
     <script src="../assets/js/myjs.js"></script>
+    <script src="../assets/js/headroom.js"></script>
+    <script type="text/javaScript">
+        var myElement = document.querySelector(".headroom");
+        var options = {
+            // vertical offset in px before element is first unpinned
+            offset : 111,
+            // scroll tolerance in px before state changes
+            tolerance : 5
+        };
+        // construct an instance of Headroom, passing the element
+        var headroom  = new Headroom(myElement,options);
+        // initialise
+        headroom.init();
+        
+    </script>
 </body>
 
 </html>

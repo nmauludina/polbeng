@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header headroom headroom--fixed">
         <!-- blue bar -->
         <div class="container-fluid top-head">
             <div class="container d-flex justify-content-between">
@@ -89,7 +89,7 @@
         <div class="konten">
             <div class="container">
                 <div class="row">
-                    <aside class="col-md-4">
+                    <aside class="col-md-4 fixed-elem">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item list-actv"><a href="ti.html">D3 TEKNIK INFORMATIKA</a></li>
                             <li class="list-group-item"><a href="rpl.html">D4 REKAYASA PERANGKAT LUNAK</a></li>
@@ -243,6 +243,21 @@
     
     <!-- My JavaScript -->
     <script src="../assets/js/myjs.js"></script>
+    <script src="../assets/js/headroom.js"></script>
+    <script type="text/javaScript">
+        var myElement = document.querySelector(".headroom");
+        var options = {
+            // vertical offset in px before element is first unpinned
+            offset : 111,
+            // scroll tolerance in px before state changes
+            tolerance : 5
+        };
+        // construct an instance of Headroom, passing the element
+        var headroom  = new Headroom(myElement,options);
+        // initialise
+        headroom.init();
+        
+    </script>
     </body>
     
     </html>
