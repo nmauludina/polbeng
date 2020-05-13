@@ -267,23 +267,23 @@ ul.navbar-nav div.item-child a:last-child {
     /* border: 1px solid black; */
 }
 
-#berita .berita-item {
+.berita-item {
     width: 45%;
     padding-bottom: 48px;
 }
 
-#berita h3 {
+.headline {
     font-size: 36px;
     font-weight: bold;
-    padding-bottom: 11px;
+    margin-bottom: 30px;
 }
 
-#berita div.berita-photo {
+div.berita-photo {
     position: relative;
     display: inline-block; 
 }
 
-#berita img.berita-foto {
+img.berita-foto {
     width: 100%;
     border-radius: 5px;
     display:block;
@@ -589,14 +589,14 @@ body .strip {
     margin: 19px 0 25px 0;
 }
 
-#prestasi .prestasi-foto img {
+.prestasi-foto img {
     width: 100%;
     padding: 0;
     border-radius: 5px;
     box-shadow: 2px 3px 10px rgb(209, 209, 209);
 }
 
-#prestasi .prestasi-detail h5 {
+.prestasi-detail h5 {
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
@@ -619,7 +619,7 @@ body .strip {
     line-height: 15px;
 }
 
-#prestasi .agenda h5 {
+.agenda .headline {
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
@@ -627,7 +627,7 @@ body .strip {
     margin-left: 6px;
 }
 
-#prestasi .agenda-item {
+.agenda-item {
     padding: 13px 22px;
     z-index: 99;
     position: relative;
@@ -635,10 +635,11 @@ body .strip {
     /* background: linear-gradient(left,#00799A,#00799A ) no-repeat; */
     background-position: 0px;
     border-radius: 5px 0px 0px 5px;
+    width: 461px;
     margin-bottom: 22px;
 }
 
-#prestasi .agenda-item::before {
+.agenda-item::before {
     content: "";
     position: absolute;
     top: 0;
@@ -647,29 +648,28 @@ body .strip {
     height: 100%;
     z-index: -5;
     background: #F8F8F8;
-    /* background-color: #00799A; */
 }
 
-#prestasi .agenda-item h6 {
+.agenda-item h6 {
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 20px;
 }
 
-#prestasi .agenda-item img {
+.agenda-item img {
     float: left;
     margin-top: 5px;
     margin-right: 15px;
 }
 
-#prestasi div.clearfix img.lok {
+div.clearfix img.lok {
     margin-left: 3px;
     width: 10px;
     margin-right: 17px;
 }
 
-#prestasi .agenda-item p {
+.agenda-item p {
     margin-bottom: 2px;
 }
 
@@ -809,9 +809,9 @@ footer .container {
 
 /* ************ PRODI *************** */
 
-.fixed-elem {
-    position: fixed!important;
-    top:200px;
+.sticky-elem {
+    position: sticky;
+    top:50px;
 }
 
 main {
