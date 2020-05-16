@@ -964,7 +964,35 @@ article .batas {
   margin: 21px 0;
 }
 
+/* Direktori */
+.wrap {
+    width: 330px;
+    margin-bottom: 27px;
+    overflow: hidden;
+}
 
+.dir-img {
+    height: 380px;
+    border-radius: 5px;
+}
+
+.dir-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0;
+    padding: 16px 0 10px 0;
+}
+.dir-content {
+    font-size: 18px;
+    line-height: 17px;
+}
+
+.content-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+}
 
 
 
@@ -996,7 +1024,7 @@ article .batas {
 }
 
 .headroom--unpinned {
-    transform: translateY(-100%);
+    transform: translateY(-200%);
 }
 
 .header-space {
