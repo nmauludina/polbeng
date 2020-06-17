@@ -20,7 +20,7 @@
 <body>
     <header class="header headroom headroom--fixed">
         <!-- blue bar -->
-        <div class="container-fluid top-head">
+        <div class="top-head">
             <div class="container d-flex justify-content-between">
                 <div class="medsos">
                     <a href="#"><img src="assets/img/ig.png" alt=""></a>
@@ -35,10 +35,10 @@
             </div>
         </div>
         <!-- white navbar -->
-        <div class="container-fluid">
+        <div class="navWhite">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="">
+                    <a class="navbar-brand" href="./index.html">
                         <img src="assets/img/logo.png" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -48,11 +48,10 @@
                     <div class="collapse navbar-collapse nav-menu" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link link-actv" href="index.html">HOME <span
-                                        class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="./index.html">HOME <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link dropdown-toggle menu_header" href="#">PROGRAM STUDI</a>
+                                <a class="nav-link  dropdown-toggle menu_header" href="#">PROGRAM STUDI</a>
                                 <div class="item-child">
                                     <span class="d-flex flex-column">
                                         <a href="prodi/ti.html">D3 TEKNIK INFOTMATIKA</a>
@@ -64,16 +63,20 @@
                                 <a class="nav-link" href="./fasilitas.html">FASILITAS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./direktori.html">DIREKTORI</a>
+                                <a class="nav-link link-actv" href="./direktori.html">DIREKTORI</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </div>
         </div>
+        <div class="collapseBgr"></div>
         <div class="bg_white" id="bg_putih_header"></div>
     </header>
     <!-- <div class="header-space"></div> -->
+
+
+    <!-- Carousel -->
     <main>
         <!-- carousel -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -93,16 +96,21 @@
                     <img class="img-res" src="assets/img/banner.png" class="d-block w-100" alt="carousel">
                 </div>
             </div>
-            <div class="carousel-child container-fluid">
-                <div class="container">
-                    <img src="assets/img/Pragram Studi Diploma TEKNIK INFORMATIKA Terakreditasi B.png">
-                    <br>
-                    <a class="btn" href="#">Daftar Prodi ini</a>
-                </div>
+            <div class="container-fluid" style="height: 0;">
+            <div class="carousel-child container">
+                <p>Program Studi Diploma</p>
+                <h1>TEKNIK INFORMATIKA</h1>
+                <h3>Terakreditasi B</h3>
+                <br>
+                <a class="btn" href="#">Daftar Prodi ini</a>
+            </div>
             </div>
         </div>
-        <div class="container-fluid green-bar">
-            <div class="container d-flex justify-content-between">
+        <button class="container-fluid arrow" type="button" data-toggle="green-bar" data-target="greenBar" onclick="greenBar()">
+            <img src="assets/img/Polygon 1.png">
+        </button>
+        <div id="greenBar"class="container-fluid green-bar" style="display: none;">
+            <div class="container d-flex justify-content-between " style="text-align: center;padding:0">
                 <a href="#"><img src="assets/img/ejournal.png" alt=""></a>
                 <a href="#"><img src="assets/img/mailpolbeng.png" alt=""></a>
                 <a href="#"><img src="assets/img/polbeng.png" alt=""></a>
@@ -113,8 +121,8 @@
     </main>
 
     <!-- Main -->
-    <main class="container">
-        <div id="berita">
+    <main class="container-fluid">
+        <div id="berita" class="container">
             <div class="row">
                 <div class="berita col-md-7">
                     <h3 class="headline">Berita</h3>
@@ -222,19 +230,21 @@
                     </div>
                     <button type="button" class="btn">Berita lainnya</button>
                 </div>
-                <div class="kalender col-md-5">
-                    <div class="container-fluid">
+                <div class="kalender col-md-5" style="padding-left: 0;padding-right: 0;">
+                    <div class="container-fluid" style="padding-left: 0;padding-right: 0;">
                         <h4>Kalender Akademik</h4>
                         <div class="sche-now">
                             <div class="sche-now-top">Jadwal hari ini</div>
-                            <div class="row sche-now-content">
-                                <div class="col-sm-3 sche-now-date">
+                            <div class="sche-now-content container">
+                                <div class="row">
+                                <div class="col-4 sche-now-date">
                                     <h1>24</h1>
                                     <p>Jan<br>2020</p>
                                 </div>
-                                <div class="col-sm sche-now-details">
+                                <div class="col-8 sche-now-details">
                                     <h6>Pengumuman <br>Jadwal NSP</h6>
                                     <p>24 Januari</p>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -326,9 +336,11 @@
             </div>
         </div>
     </main>
+
     <div class="strip"></div>
-    <main class="container">
-        <div id="prestasi">
+
+    <main class="container-fluid">
+        <div id="prestasi" class="container">
             <div class="row">
                 <div class="prestasi col-md-7">
                     <h3>Prestasi Mahasiswa</h3>
@@ -407,7 +419,7 @@
                 </div>
                 <div class="sejarah">
                     <h4>Ayo Kuliah di Polbeng</h4>
-                    <p>
+                    <p style="text-align: justify;">
                         Pada awal tahun 2000, Pemerintah Kabupaten Bengkalis, melalui Yayasan Gema Bahari mendirikan
                         perguruan tinggi dengan
                         nama Politeknik Perkapalan Bengkalis, yang mempunyai 3 (tiga) program studi, yaitu: Teknik
@@ -437,17 +449,17 @@
                     <p><img src="assets/img/fax.png" alt="telp"> +62 (766) 8001000</p>
                     <p><img src="assets/img/email.png" alt="email"> polbeng@polbeng.ac.id</p>
                 </div>
-                <div class="links col-md-5">
+                <div class="links linky col-md-5">
                     <h2>LINK</h2>
-                    <div class="row">
-                        <div class="col d-flex flex-column">
+                    <div class="d-flex justify-content-between">
+                        <div class="float-left d-flex flex-column text-left">
                             <a href="#">Polbeng</a>
                             <a href="#">Bidikmisi</a>
                             <a href="#">Ristekdikti</a>
                             <a href="#">Simblitabmas</a>
                             <a href="#">Mahasiswa</a>
                         </div>
-                        <div class="col d-flex flex-column">
+                        <div class="float-right d-flex flex-column text-left">
                             <a href="#">Alumni</a>
                             <a href="#">Aplikasi Sister</a>
                             <a href="#">SIM Online</a>
