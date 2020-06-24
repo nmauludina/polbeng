@@ -15,8 +15,7 @@ body .btn {
     font-size: 18px;
     font-weight: 700;
     color: white;
-    height: 38px;
-    padding: 4px 21px 13px;
+    padding: 4px 21px 3px;
 }
 
 body .btn:hover {
@@ -222,12 +221,12 @@ ul.navbar-nav div.item-child a:last-child {
 
 ol.carousel-indicators {
     margin-bottom: 0!important;
-    bottom: 32px!important;
+    bottom: 18px!important;
 }
 
 .carousel .carousel-child {
     position: relative;
-    top: -470px;
+    top: -460px;
     z-index: 999;
     padding: 10px 0;
     height: 0;
@@ -238,19 +237,19 @@ ol.carousel-indicators {
 }
 
 .carousel-child p {
-    font-size: 2.14rem;
+    font-size: 2.19rem;
     color: #fff;
     font-weight: 300;
 }
 
 .carousel-child h1 {
-    font-size: 3.79rem;
+    font-size: 3.8rem;
     font-weight: 600;
     color: #FFF;
 }
 
 .carousel-child h3 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #FFF494;
 }
@@ -262,13 +261,13 @@ ol.carousel-indicators {
 .carousel .carousel-child .btn {
     position: static;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 30px;
     color: #2A1570;
     background: #FFF494;
-    padding: 10px 20px;
+    padding: 10px 30px;
     height: max-content;
-    margin-top: 30px;
+    margin-top: 10px;
     opacity: 0.9;
 }
 
@@ -277,11 +276,14 @@ ol.carousel-indicators {
 }
 
 .green-bar {
-    width:100%;
-    height: auto;
+    height: max-content;
     background: #20ABAE;
-    padding: 15px 0!important;
+    padding: 15px 0;
     position: relative;
+}
+
+.green-bar .container {
+    width: 100%;
 }
 
 .green-bar img {
@@ -290,6 +292,8 @@ ol.carousel-indicators {
 
 .green-bar a {
     line-height: 100px;
+    width: 20%;
+    display: inline-block;
 }
 
 .arrow {
@@ -309,12 +313,12 @@ button:focus {
 /* MAIN */
 
 #berita {
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 100px;
     height: fit-content;
 }
 
-#berita .col-md-7, #berita .col-md-5 {
+#berita .col-lg-7, #berita .col-lg-5 {
     padding-top: 20px; 
     padding-bottom: 20px;
 }
@@ -339,6 +343,7 @@ button:focus {
 div.berita-photo {
     position: relative;
     display: inline-block; 
+    width: 100%;
 }
 
 img.berita-foto {
@@ -379,7 +384,7 @@ div.bg_link img {
 }
 
 .berita-konten h5 {
-    margin: 12px 0 4px;
+    margin: 1px 0 4px;
     font-size: 15px;
 
 }
@@ -396,7 +401,7 @@ div.bg_link img {
     font-size: 11.5px;
     font-weight: normal;
     color:  #20ABAE;
-    margin-top: 5px;
+    margin: 5px 0 0;
 }
 
 .berita-konten hr {
@@ -546,9 +551,9 @@ div.row.sche-nsp-content:first-child div.sche-nsp-date > h2, div.row.sche-nsp-co
 
 .sche-nsp .sche-nsp-date h2 {
     font-size: 24px;
-    padding: 11px 22px;
+    padding: 0 22px;
     font-weight: bold;
-    line-height: 30px;
+    line-height: 52px;
     margin: 0;
 }
 
@@ -557,7 +562,6 @@ div.row.sche-nsp-content:first-child div.sche-nsp-date > h2, div.row.sche-nsp-co
     font-size: 14px;
     line-height: 17px;
     margin: 21px 0 13px;
-    /* padding-right: 159px; */
 }
 
 
@@ -633,15 +637,15 @@ body .strip {
     line-height: 45px;
 }
 
-#prestasi .col-md-7 {
+#prestasi .col-lg-7 {
     padding: 0 53px 70px 0;
 }
 
-#prestasi .col-md-5 {
+#prestasi .col-lg-5 {
     padding: 6px 0 70px 9px;
 }
 
-#prestasi .col-md-6 {
+#prestasi .col-lg-6 {
     padding: 0 15px 0 0;
 }
 
@@ -651,13 +655,12 @@ body .strip {
 
 .prestasi-foto img {
     width: 100%;
-    padding: 0;
     border-radius: 5px;
     box-shadow: 2px 3px 10px rgb(209, 209, 209);
 }
 
 .prestasi-foto {
-    padding: 0!important;
+    padding-top: 6px!important;
 }
 
 .prestasi-detail {
@@ -703,7 +706,7 @@ body .strip {
     /* background: linear-gradient(left,#00799A,#00799A ) no-repeat; */
     background-position: 0px;
     border-radius: 5px 0px 0px 5px;
-    width: 461px;
+    width: 100%;
     margin-bottom: 22px;
 }
 
@@ -712,7 +715,7 @@ body .strip {
     position: absolute;
     top: 0;
     left: 6px;
-    width: 461px;
+    width: 100%;
     height: 100%;
     z-index: -5;
     background: #F8F8F8;
@@ -773,7 +776,7 @@ div.clearfix img.lok {
 #deskripsi .video img {
     /* width: 900px; */
     width: 89%;
-    border-radius: 15px;
+    border-radius: 10px;
     position: relative;
 }
 
@@ -1076,334 +1079,3 @@ article .batas {
 /* OTHER DEVICES */
 
 
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 1000px) {
-
-    header a.navbar-brand img {
-        height: 55%;
-    }
-
-    .top-head {display: none!important}
-
-    .top-head div.medsos {
-        width: 20%;
-    }
-
-    .top-head .medsos img {
-        width: 14px;
-    }
-
-    .top-head .medsos a {
-        margin-right: 0;
-    }
-    
-    .top-head .info {
-        line-height: 32px;
-    }
-
-    .top-head .info a {
-        padding-left: 20px;
-        font-size:12px;
-    }
-
-    .calc-minus {
-        height: calc(70% - 15px)!important;
-    }
-
-    .navbar button {
-        float: right; 
-        position:absolute; 
-        right:0;
-        bottom: 27px;
-    }
-
-    .navbar-light .navbar-toggler {
-        border-color: rgba(0,0,0,0)!important;
-    }
-
-    .nav-menu {
-        top: 99px;
-        text-align: left;
-        background:#FFF;
-        height: fit-content;
-    }
-
-    .carousel-item {
-        min-height:100%;
-    }
-
-    .img-res {
-        object-position: -700p;
-    }
-
-    .green-bar .container {
-        flex-wrap: wrap;
-    }
-
-    .green-bar img {
-        width: 30%;
-        height: auto;
-    }
-
-    .green-bar a {
-        width: 100%;
-    }
-
-    .arrow {
-        display: block;
-    }
-
-    #berita .col-md-5 {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .kalender .container-fluid {
-        padding: 0;
-    }
-
-    #deskripsi {
-        padding: 55px 0 60px;
-    }
-
-    #deskripsi .video {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-
-    #deskripsi .video img {
-        width: 100%;
-    }
-
-    #deskripsi .sejarah h4 {
-        margin-bottom: 20px;
-    }
-
-    #deskripsi .sejarah {
-        width: 100%;
-    }
-
-    .contacts {
-        margin-bottom: 60px;
-        text-align: center;
-    }
-
-    .links.linky {
-        height: max-content;
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-
-    header .nav-menu {
-        display: block;
-        text-align: left;
-        padding: 10px 0;
-        width: 100%;
-        float: none;
-    }
-
-    ul.navbar-nav {
-        display: block;
-        float: none;
-    }
-
-    .nav-menu li.nav-item {
-        display: block;
-        padding: 5px 0;
-        float: none;
-    }
-
-    header .nav-menu a {
-        margin: 0;
-    }
-
-    .bg_white {
-        display: none!important;
-    }
-
-    .bg_white:hover {
-        display: none!important;
-    }
-
-}
-
-@media (max-width: 768px) {
-    
-    .carousel .img-res {
-        object-position: -700px;
-    }
-
-    .carousel .carousel-child {
-        top: -430px;
-    }
-
-    .carousel-child p {
-        font-size: 2.4rem;
-    }
-
-    .carousel-child h3 {
-        padding-top: 10px;
-        font-size: 2.1rem;
-    }
-    
-    ol.carousel-indicators {
-        display: none!important;
-    }
-
-    .carousel .carousel-child .btn {
-        margin-top: 78px;
-        width: 100%;
-        font-size: 20px;
-    }
-
-    #berita .berita {
-        padding-right: 0em;
-    }
-
-    .berita-item {
-        width: 100%;
-    }
-
-    div.berita-photo {
-        width: 100%;
-    }
-
-    .berita-konten h5 {
-        font-size: 28px;
-    }
-    .berita-konten h6 {
-        padding-top: 10px;
-        padding-bottom: 5px;
-        font-size: 18px;
-    }
-
-    .berita-konten hr {
-        border-top: 0.5px solid rgba(0,0,0,0.21);
-    }
-
-    .berita-konten p {
-        font-size: 18px;
-        line-height: 20px;
-        padding-top: 5px;
-        text-align: justify;
-    }
-
-    #berita .col-md-7 {
-        padding-bottom: 50px;
-    }
-
-    .sche-now .sche-now-date {
-        left: 35px;
-    }
-    .sche-now-details {
-        padding-left: 15px!important;
-    }
-
-    #prestasi {
-        padding-top: 70px;
-        padding-bottom: 20px;
-    }
-    
-    #prestasi .col-md-7 {
-        padding-right: 0;
-        padding: 0 0 100px 0;
-    }
-
-    #prestasi .col-md-5 {
-        padding: 6px 0 70px 0;
-    }
-
-    .prestasi-detail h5 {
-        margin-top: 16px;
-        font-size: 22px;
-        line-height: 26px;
-        text-align: justify;
-    }
-
-    #prestasi .prestasi-detail h6 {
-        font-size: 18px;
-        margin-top: 15px;
-    }
-
-    #prestasi .prestasi-detail p {
-        font-size: 16px;
-        text-align: justify;
-        line-height: 22px;
-    }
-
-    #prestasi .prestasi-detail hr {
-        border-top: 1px solid rgba(0,0,0,0.21);
-    }
-
-    .blue-bar h4 {
-        margin: 12px 0;
-        font-size: 1.4rem;
-    }
-
-    .contacts p {
-        font-size:14px;
-    }
-
-    .links {
-        text-align: center;
-    }
-
-    .links .col {
-        text-align: left;
-    }
-
-    .links h2 {
-        font-size: 28px;
-        text-align: left;
-    }
-    
-    .links a {
-        font-size: 18px;
-    }
-
-    .agenda-item {
-        width: 326px;
-    }
-
-    .agenda-item::before {
-        width: 326px;
-    }
-
-    .agenda-item h6 {
-        font-size: 14px;
-        line-height: 18px;
-    }
-
-    .agenda-item p {
-        margin-bottom: 2px;
-        font-size: 12px;
-    }
-
-    .agenda-item img {
-        margin-right: 10px;
-        width: 10px;
-    }
-
-    div.clearfix img.lok {
-        margin-left: 1.2px;
-        width: 7px;
-        margin-right: 11px;
-    }
-
-}
-
-@media (min-width: 320px) {
-
-    .carousel-child p {
-        font-size: 2.4rem;
-    }
-
-}
-
-@media (min-width: 992px) {
-
-    .nav-link {
-        padding:0!important;
-    }
-
-}

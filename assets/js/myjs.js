@@ -94,28 +94,25 @@ for(var i = 0; i<berita_foto.length; i++){
 }
 
 
-function greenBar() {
-    var greenBar = document.getElementById("greenBar");
-    if(greenBar.style.display === "none") {
-        greenBar.style.display = "block";
-    } else {
-        greenBar.style.display = "none";
-    }
+var greenBar = document.getElementById("greenBar");
+// document.body.clientWidth <= 971 ? green_Bar.classList.add("addedGBar") : greenBar.classList.remove("addedGBar");
+
+
+var green_Bar = document.getElementsByClassName("addedGBar");
+function greenBarOnclick() {
+    green_Bar[0].style.height === 0 ? green_Bar[0].style.height = 100+'%' : green_Bar[0].style.height = 0;
 }
 
 var collapseNav = document.getElementById("navbarNavDropdown");
-
 var collapseBgr = document.getElementsByClassName("collapseBgr");
 var navToggler = document.getElementsByClassName("navbar-toggler");
 function show() {
-    // collapseBgr[0].style.display = "block";
     collapseBgr[0].style.transition = 'height ' + 0.25 + 's';
     collapseBgr[0].style.height = 153 + 'px';
 }
 function hide() {
     collapseBgr[0].style.transition = 'height ' + 0.6 + 's';
     collapseBgr[0].style.height = 0;
-    // collapseBgr[0].style.display = "none";
 }
 navToggler[0].onclick = function (e) {
 
