@@ -310,6 +310,11 @@ ol.carousel-indicators {
     background: none;
 }
 
+button.container-fluid.arrow {
+    box-shadow: 0px 3px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
 button:focus {
     outline: none!important;
 }
@@ -659,6 +664,11 @@ body .strip {
     margin: 19px 0 25px 0;
 }
 
+.prestasi {
+    margin-top: 52px;
+    margin-bottom: 207px;
+}
+
 .prestasi-foto img {
     width: 100%;
     border-radius: 5px;
@@ -669,14 +679,18 @@ body .strip {
     padding-top: 6px!important;
 }
 
-.prestasi-detail {
-    padding: 0!important;
+#fasilitas-lainnya h5 {
+    font-size: 28px;
 }
 
 .prestasi-detail h5 {
     font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.prestasi-detail p {
+    margin-top: 30px;
 }
 
 #prestasi .prestasi-detail h6 {
@@ -880,7 +894,8 @@ div.batasan {
 }
 
 div.batasan .container {
-  padding: 19px 0 18px;
+    padding-top: 19px;
+    padding-bottom: 18px;
 }
 
 div.batasan p {
@@ -907,6 +922,14 @@ div.batasan p:last-child::after {
   content: '';
 }
 
+/* PRODI */
+
+main.prodi {
+    margin-top: 132px;
+}
+
+
+
 div.prodi-nama {
   background: #F1F1F1;
 }
@@ -922,7 +945,7 @@ div.prodi-nama h1 {
 }
 
 div.konten .container{
-  padding: 0 0 90px 0;
+  padding-bottom: 90px;
 }
 
 main aside {
@@ -963,6 +986,13 @@ div.article-item div.col:last-child {
   padding: 0;
 }
 
+.article-item h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom:31px;
+}
+
 div.article-item h1 {
   font-weight: bold;
   font-size: 36px;
@@ -988,9 +1018,8 @@ div.article-item div.batas-biru {
 
 div.article-item p {
   font-size: 18px;
-  line-height: 17px;
+  line-height: 25px;
   margin: 0;
-  text-align: justify;
 }
 
 div.article-item table tr td.align-baseline {
@@ -1000,9 +1029,8 @@ div.article-item table tr td.align-baseline {
 }
 
 div.article-item table tr td:nth-child(2) {
-  text-align: justify;
   font-size: 18px;
-  line-height: 17px;
+  line-height: 28px;
 }
 
 div.article-item table.tbl tr td {
@@ -1022,6 +1050,36 @@ article .batas {
     width: 330px;
     margin-bottom: 27px;
     overflow: hidden;
+}
+
+.kajur {
+    padding-top:45px;
+}
+
+.kajur-wrap {
+    padding-top:53px;
+    padding-bottom:38px;
+}
+
+.dosen-list {
+    padding: 93px 0 93px 0;
+}
+
+.dosen-list h3 {
+    padding-bottom:49px;
+}
+
+.kajur h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom:8px
+}
+
+.kajur p:first-child {
+    font-size: 18px;
+    line-height: 17px;
+    text-align: justify;
 }
 
 .dir-img {

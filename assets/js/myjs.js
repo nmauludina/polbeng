@@ -112,8 +112,8 @@ var collapseNav = document.getElementById("navbarNavDropdown");
 var collapseBgr = document.getElementsByClassName("collapseBgr");
 var navToggler = document.getElementsByClassName("navbar-toggler");
 function show() {
-    collapseBgr[0].style.transition = 'height ' + 0.25 + 's';
-    collapseBgr[0].style.height = 153 + 'px';
+    collapseBgr[0].style.transition = 'height ' + 0.26 + 's ease-out';
+    collapseBgr[0].style.height = 157 + 'px';
 }
 function hide() {
     collapseBgr[0].style.transition = 'height ' + 0.6 + 's';
@@ -121,5 +121,5 @@ function hide() {
 }
 navToggler[0].onclick = function () {
 
-    collapseBgr[0].style.height == 153+"px" ? hide() : show();
+    collapseBgr[0].style.height == 157+"px" ? hide() : show();
 }

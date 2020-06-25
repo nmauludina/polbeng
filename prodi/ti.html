@@ -8,6 +8,7 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -38,7 +39,7 @@
         <div class="container-fluid">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="../index.html">
+                    <a class="navbar-brand" href="">
                         <img src="../assets/img/logo.png" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -48,10 +49,11 @@
                     <div class="collapse navbar-collapse nav-menu" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                                <a class="nav-link link-actv" href="../index.html">HOME <span
+                                        class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link  link-actv dropdown-toggle menu_header" href="#">PROGRAM STUDI</a>
+                                <a class="nav-link dropdown-toggle menu_header" href="#">PROGRAM STUDI</a>
                                 <div class="item-child">
                                     <span class="d-flex flex-column">
                                         <a href="ti.html">D3 TEKNIK INFOTMATIKA</a>
@@ -74,30 +76,30 @@
         <div class="bg_white" id="bg_putih_header"></div>
     </header>
 
-    <main>
-        <div class="batasan">
+    <main class="prodi">
+        <div class="batasan container-fluid">
             <div class="container">
                 <p><a href="../index.html">HOME</a></p>
                 <p><a href="#">PROGRAM STUDI</a></p>
                 <p><a href="ti.html">TEKNIK INFORMATIKA</a></p>
             </div>
         </div>
-        <div class="prodi-nama">
+        <div class="prodi-nama container-fluid">
             <div class="container">
                 <h1>TEKNIK INFORMATIKA</h1>
             </div>
         </div>
-        <div class="konten">
+        <div class="konten container-fluid">
             <div class="container">
                 <div class="row">
-                    <aside class="col-md-4" style="padding-bottom:200px">
+                    <aside class="col-lg-4" style="padding-bottom:200px">
                         <ul class="list-group list-group-flush sticky-elem">
                             <li class="list-group-item list-actv"><a href="ti.html">D3 TEKNIK INFORMATIKA</a></li>
                             <li class="list-group-item"><a href="rpl.html">D4 REKAYASA PERANGKAT LUNAK</a></li>
                             <li class="list-group-item"><a href="ksi.html">D4 KEAMANAN SISTEM INFORMASI</a></li>
                         </ul>
                     </aside>
-                    <article class="col-md-8">
+                    <article class="col-lg-8">
                         <img src="../assets/img/prodi/2 8.png" alt="...">
                         <div class="article-item">
                             <h1>Visi</h1>
@@ -147,10 +149,10 @@
                             <h1>Prospek Karir</h1>
                             <div class="batas-biru"></div>
                             <div class="row">
-                              <div class="col-md-5">
+                              <div class="col-lg-5">
                                 <img class="" src="../assets/img/prodi/IMG_6747 1.png" width="100%" alt="...">
                               </div>
-                              <div class="col-md-7">
+                              <div class="col-lg-7">
                                 <table>
                                   <tr>
                                     <td class="align-baseline">1&emsp;</td>
@@ -193,39 +195,39 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <div class="container blue-bar">
-            <div class="row">
-                <div class="contacts col-md-7">
-                    <img src="../assets/img/polbeng_footer 1.png" alt="logo polbeng">
-                    <br>
-                    <h4>POLITEKNIK NEGERI BENGKALIS</h4>
-                    <p>Jl. Bathin Alam, Sungai Alam Bengkalis Riau - 28711</p>
-                    <p><img src="../assets/img/telp.png" alt="telp"> +62 (766) 24566</p>
-                    <p><img src="../assets/img/fax.png" alt="telp"> +62 (766) 8001000</p>
-                    <p><img src="../assets/img/email.png" alt="email"> polbeng@polbeng.ac.id</p>
-                </div>
-                <div class="links col-md-5">
-                    <h2>LINK</h2>
-                    <div class="row">
-                        <div class="col d-flex flex-column">
-                            <a href="#">Polbeng</a>
-                            <a href="#">Bidikmisi</a>
-                            <a href="#">Ristekdikti</a>
-                            <a href="#">Simblitabmas</a>
-                            <a href="#">Mahasiswa</a>
-                        </div>
-                        <div class="col d-flex flex-column">
-                            <a href="#">Alumni</a>
-                            <a href="#">Aplikasi Sister</a>
-                            <a href="#">SIM Online</a>
-                            <a href="#">Kabupaten Bengkalis</a>
-                        </div>
+<footer>
+    <div class="container blue-bar">
+        <div class="row">
+            <div class="contacts col-lg-7">
+                <img src="../assets/img/polbeng_footer 1.png" alt="logo polbeng">
+                <br>
+                <h4>POLITEKNIK NEGERI BENGKALIS</h4>
+                <p>Jl. Bathin Alam, Sungai Alam Bengkalis Riau - 28711</p>
+                <p><img src="../assets/img/telp.png" alt="telp"> +62 (766) 24566</p>
+                <p><img src="../assets/img/fax.png" alt="telp"> +62 (766) 8001000</p>
+                <p><img src="../assets/img/email.png" alt="email"> polbeng@polbeng.ac.id</p>
+            </div>
+            <div class="links linky col-lg-5">
+                <h2>LINK</h2>
+                <div class="d-flex justify-content-between">
+                    <div class="float-left d-flex flex-column text-left">
+                        <a href="#">Polbeng</a>
+                        <a href="#">Bidikmisi</a>
+                        <a href="#">Ristekdikti</a>
+                        <a href="#">Simblitabmas</a>
+                        <a href="#">Mahasiswa</a>
+                    </div>
+                    <div class="float-right d-flex flex-column text-left">
+                        <a href="#">Alumni</a>
+                        <a href="#">Aplikasi Sister</a>
+                        <a href="#">SIM Online</a>
+                        <a href="#">Kabupaten Bengkalis</a>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
     <div class="white-bar align-middle">
         <p>Copyright &copy; 2020</p>
     </div>

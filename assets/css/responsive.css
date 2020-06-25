@@ -241,6 +241,53 @@
         display: block;
     }
 
+
+    /* PRODI */
+    main.prodi {
+        margin-top: 99px;
+    }
+    
+    div.prodi-nama h1 {
+        font-size: 34px;
+    }
+
+    /* FASILITAS */
+
+    .prestasi {
+        margin-bottom: 130px;
+    }
+
+    .col-lg-4.prestasi-foto {
+        padding: 0
+    }
+
+    .row.prestasi-item {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    div#fasilitas-lain {
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+
+    }
+
+    .prestasi-detail p {
+        margin-top: 0;
+    }
+
+    .prestasi-detail hr {
+        margin-top: .8rem;
+        margin-bottom: 1rem;
+    }
+
+    /* DIREKTORI */
+
+    .kajur {
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -344,7 +391,6 @@
         margin-top: 16px;
         font-size: 22px;
         line-height: 26px;
-        text-align: justify;
     }
 
     #prestasi .prestasi-detail h6 {
@@ -424,6 +470,20 @@
     .sejarah p {
         font-size: 15px;
     }
+
+
+
+    /* PRODI */
+
+    .article-item {
+        margin: 30px 0;
+    }
+
+    /* DIREKTORI */
+    .dosen-list h3, .dir-title, .dir-content {
+        text-align: center;
+    }
+
 
 }
 
@@ -570,5 +630,10 @@
     .sche-now .sche-now-date {
         left: 20px;
         top: 5px;
+    }
+
+    /* FASILITAS */
+    div.prodi-nama h1 {
+        padding: 20px 0;
     }
 }
