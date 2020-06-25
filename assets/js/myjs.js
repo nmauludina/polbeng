@@ -1,5 +1,4 @@
 
-
 // ambil dulu nav-item
 var nav_item = document.getElementsByClassName("nav-item"); //inikan mpengambilan selectornya nya
 
@@ -55,6 +54,7 @@ var frame = document.getElementsByClassName("frame");
 var child_foto = document.getElementsByClassName("child_foto");
 
 
+// hover foto berita
 
 var berita_fotoHeight = [], berita_fotoWidth = [];
 
@@ -94,14 +94,19 @@ for(var i = 0; i<berita_foto.length; i++){
 }
 
 
+// fungsi onclick greenbar
+
 var greenBar = document.getElementById("greenBar");
-// document.body.clientWidth <= 971 ? green_Bar.classList.add("addedGBar") : greenBar.classList.remove("addedGBar");
 
-
-var green_Bar = document.getElementsByClassName("addedGBar");
 function greenBarOnclick() {
-    green_Bar[0].style.height === 0 ? green_Bar[0].style.height = 100+'%' : green_Bar[0].style.height = 0;
+    while (greenBar.style.display === "") {
+        greenBar.style.display = "none";
+    }
+    greenBar.style.display === "block" ? greenBar.style.display = "none" : greenBar.style.display = "block";
 }
+
+
+//  NAVBAR 
 
 var collapseNav = document.getElementById("navbarNavDropdown");
 var collapseBgr = document.getElementsByClassName("collapseBgr");
@@ -114,7 +119,7 @@ function hide() {
     collapseBgr[0].style.transition = 'height ' + 0.6 + 's';
     collapseBgr[0].style.height = 0;
 }
-navToggler[0].onclick = function (e) {
+navToggler[0].onclick = function () {
 
     collapseBgr[0].style.height == 153+"px" ? hide() : show();
 }

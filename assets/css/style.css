@@ -2,6 +2,10 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
 }
@@ -165,7 +169,7 @@ header div.my-navHover a:hover {
     padding: 18px 0;
     display: none;
     min-height:0;
-    left: 110px;
+    left: 134px;
 }
  ul.navbar-nav div.item-child:hover {
    display: block;
@@ -179,6 +183,7 @@ ul.navbar-nav div.item-child a {
     line-height: 17px;
     color: rgba(0, 0, 0, 0.8);
     margin-bottom: 10px;
+    text-align: left;
 }
 
 ul.navbar-nav div.item-child a:last-child {
@@ -280,6 +285,7 @@ ol.carousel-indicators {
     background: #20ABAE;
     padding: 15px 0;
     position: relative;
+    display: block;
 }
 
 .green-bar .container {
@@ -462,7 +468,7 @@ button {
     margin: 19px 0 18px 0;
     padding: 0;
     float: left;
-    left: 20px;
+    left: 35px;
 }
 
 .sche-now-date h1 {

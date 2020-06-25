@@ -86,6 +86,7 @@
 
     .green-bar {
         padding: 0;
+        display: none;
     }
 
     .green-bar img {
@@ -564,5 +565,10 @@
     .carousel .carousel-child .btn {
         position: absolute;
         bottom: -350px;
+    }
+
+    .sche-now .sche-now-date {
+        left: 20px;
+        top: 5px;
     }
 }
