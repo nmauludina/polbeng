@@ -634,7 +634,7 @@ body .strip {
 /* ------------------------------------- */
 
 #prestasi {
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 20px;
 }
 
@@ -664,9 +664,13 @@ body .strip {
     margin: 19px 0 25px 0;
 }
 
+.row.prestasi-item {
+    margin-bottom: 50px;
+}
+
 .prestasi {
-    margin-top: 52px;
-    margin-bottom: 207px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .prestasi-foto img {
@@ -685,12 +689,12 @@ body .strip {
 
 .prestasi-detail h5 {
     font-weight: bold;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .prestasi-detail p {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #prestasi .prestasi-detail h6 {
@@ -1139,7 +1143,7 @@ article .batas {
     height:0;
 }
 
-
-/* OTHER DEVICES */
-
-
+.fasilitas-head {
+    font-size: 35px!important;
+    line-height: 35px!important;
+}
