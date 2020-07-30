@@ -355,12 +355,15 @@ div.berita-photo {
     position: relative;
     display: inline-block; 
     width: 100%;
+    overflow: hidden;
+    height: 174px;
+    border-radius: 5px;
 }
 
 img.berita-foto {
     width: 100%;
-    border-radius: 5px;
     display:block;
+    object-fit: cover;
 }
 
 div.bg_link {
@@ -675,12 +678,15 @@ body .strip {
 
 .prestasi-foto img {
     width: 100%;
-    border-radius: 5px;
     box-shadow: 2px 3px 10px rgb(209, 209, 209);
+    object-fit: cover;
+    height: 180px;
 }
 
 .prestasi-foto {
-    padding-top: 6px!important;
+    /* padding-top: 6px!important; */
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 #fasilitas-lainnya h5 {
@@ -980,12 +986,6 @@ aside  li.list-group-item.list-actv {
   background: #FFF494;
 }
 
-
-article img {
-  margin-bottom: 32px;
-  width: 100%;
-}
-
 div.article-item div.col:last-child {
   padding: 0;
 }
@@ -1051,7 +1051,7 @@ article .batas {
 
 /* Direktori */
 .wrap {
-    width: 330px;
+    width: 310px;
     margin-bottom: 27px;
     overflow: hidden;
 }
@@ -1087,8 +1087,9 @@ article .batas {
 }
 
 .dir-img {
-    height: 380px;
-    border-radius: 5px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 
 .dir-title {
@@ -1146,4 +1147,52 @@ article .batas {
 .fasilitas-head {
     font-size: 35px!important;
     line-height: 35px!important;
+}
+
+.kajur-foto {
+    height: 100%;
+    overflow: hidden;
+}
+
+.kajur-foto img {
+  margin-bottom: 32px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.dosen-foto {
+    overflow: hidden;
+}
+
+
+/* GOOGLE TRANSLATE */
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+    } 
+/* body {
+    top: 0px !important; 
+    } */
+#goog-gt-tt {
+    display: none!important;
+}
+
+.goog-tooltip {
+    display: none !important;
+}
+.goog-tooltip:hover {
+    display: none !important;
+}
+.goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important; 
+    box-shadow: none !important;
+}
+
+.goog-te-gadget-simple img {
+    display: none;
+}
+
+.goog-te-menu-value:hover {
+    color: black!important;
+    font-weight: lighter!important;
 }
